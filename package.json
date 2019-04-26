@@ -18,14 +18,7 @@
   "babel": {
     "presets": [
       "react",
-      [
-        "env",
-        {
-          "targets": {
-            "node": "current"
-          }
-        }
-      ]
+      ["env", { "targets": { "node": "current" } }]
     ],
     "plugins": [
       "transform-class-properties",
